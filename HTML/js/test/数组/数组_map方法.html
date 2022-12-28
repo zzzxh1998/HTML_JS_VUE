@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+map()经常用来遍历数据。
+map()的作用就是“映射”，也就是原数组被“映射”成对应新数组。
+map的参数:
+currentValue  必须。当前元素的值
+index  可选。当期元素的索引值
+arr  可选。当期元素属于的数组对象
+<script type="text/javascript">
+  var arr = ["a","b","c","d","e"];
+  arr.map(function (currentValue, inde, array) {
+    console.log("当前元素" + currentValue)
+    console.log("当前索引" + inde)
+    console.log("数组对象" + array)
+  })
+
+  var data = [1,2,3,4];
+  var Squares = data.map(function(item){
+    return item * item;
+  });
+  console.log("Squares" + Squares)
+//  箭头函数
+  var Squares1 = data.map(item => item * item);
+  console.log("Squares1 " + Squares1)
+
+  var map1 = data.map(item =>{
+    if(item == 2){
+      return item * 2
+    }
+  })
+  console.log("Squares2 " + map1)//,4,,
+  const map2 = data.map(x => {
+    if (x == 4) {
+      return x * 2;
+    }
+    return x;
+  });
+  console.log(map2)//[1, 2, 3, 8]
+  /*
+  上面这两个为什么功能不一样呢
+  * 是因为map()方法创建了一个新数组，但新数组并不是在遍历完array1后才被赋值的，而是每遍历一次就得到一个值
+  *
+  * */
+
+  var elements = ['a','b','c','d','e'];
+  var map3 = elements.map(function (el){
+    return el.length
+  })
+  console.log(map3)
+
+
+
+
+</script>
+</body>
+</html>
