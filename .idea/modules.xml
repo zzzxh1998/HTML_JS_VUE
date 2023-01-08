@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../HTML_JS_VUE/HTML_JS_VUE.iml" filepath="$PROJECT_DIR$/../HTML_JS_VUE/HTML_JS_VUE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../HTML_JS_VUE/JS/JS.iml" filepath="$PROJECT_DIR$/../HTML_JS_VUE/JS/JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML_JS_VUE.iml" filepath="$PROJECT_DIR$/HTML_JS_VUE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JS/JS.iml" filepath="$PROJECT_DIR$/JS/JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vue/Vue.iml" filepath="$PROJECT_DIR$/Vue/Vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vue/Vue_PJO/Vue_PJO.iml" filepath="$PROJECT_DIR$/Vue/Vue_PJO/Vue_PJO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vue/Vue_pjo.iml" filepath="$PROJECT_DIR$/Vue/Vue_pjo.iml" />
     </modules>
   </component>
 </project>
